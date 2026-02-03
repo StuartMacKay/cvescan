@@ -1,7 +1,7 @@
 [project]
 name = "cvescan"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scan package dependency files for known CVE vulnerabilities using the OSV database"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -10,3 +10,6 @@ dependencies = [
 
 [project.scripts]
 cvescan = "cvescan:main"
+
+[tool.uv]
+package = true
