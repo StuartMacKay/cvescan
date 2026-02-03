@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [project.scripts]
-cvescan = "main:main"
+cvescan = "cvescan:main"
